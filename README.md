@@ -1,8 +1,8 @@
-# Coronavirus stats in the Slovenia from official source
-Gets an actual number of confirmed cases by COVID-19 in the Slovenia from https://www.gov.si/en/news/2020-03-12-slovenia-declares-coronavirus-epidemic/.
+# Coronavirus stats in the Lithuania from official source
+Gets an actual number of tested/confirmed cases  by COVID-19 in the Lithuania from http://sam.lrv.lt/lt/naujienos/koronavirusas.
 
-Latest data are available at this URL: https://api.apify.com/v2/key-value-stores/603AyvQ8QjyqmnZx6/records/LATEST?disableRedirect=true.
+Latest data are available at this URL: https://api.apify.com/v2/key-value-stores/xhGDb8VTqjtm1AQL6/records/LATEST?disableRedirect=true.
 
-You can find a dataset with unique history items here https://api.apify.com/v2/datasets/H6HKZRQr8I81bClnb/items?format=json&clean=1.
+You can find a dataset with unique history items here https://api.apify.com/v2/datasets/1XdITM6u7PbhUrlmK/items?format=json&clean=1.
 
 URL is being actualized every 5 minutes.
