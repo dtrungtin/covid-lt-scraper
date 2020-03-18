@@ -49,7 +49,7 @@ Apify.main(async () => {
             }
 
             const [confirmed] = $('.text > ul > li:nth-child(1)').text().match(/\d+/);
-            const [tested] = $('.text > ul > li:nth-child(2)').text().match(/\d+/);
+            const [tested] = $('.text > ul > li:nth-child(3)').text().match(/\d+/);
             data.confirmedCases = parseInt(confirmed);
             data.testedCases = parseInt(tested);
 
