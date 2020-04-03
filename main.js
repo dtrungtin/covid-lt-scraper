@@ -34,7 +34,7 @@ Apify.main(async () => {
             };
 
             const confirmedDateText = $('.text p:nth-child(2)').text();
-            const matchUpadatedAt = confirmedDateText.match(/([A-Za-z]+) (\d+).*(\d+).(\d+)/);
+            const matchUpadatedAt = confirmedDateText.match(/([^\s]+) (\d+).*(\d+).(\d+)/);
 
             // Kovo 17 d. 9.00 val. duomenimis:
             if (matchUpadatedAt && matchUpadatedAt.length > 4) {
